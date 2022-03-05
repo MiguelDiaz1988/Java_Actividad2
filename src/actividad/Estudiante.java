@@ -38,19 +38,19 @@ public class Estudiante {
         {
             this.calificacionFinal = "F";
         }
-        else if (this.promedio > 50 && this.promedio <= 60)
+        else if (this.promedio <= 60)
         {
             this.calificacionFinal = "E";
         }
-        else if (this.promedio > 60 && this.promedio <= 70)
+        else if (this.promedio <= 70)
         {
             this.calificacionFinal = "D";
         }
-        else if (this.promedio > 70 && this.promedio <= 80)
+        else if (this.promedio <= 80)
         {
             this.calificacionFinal = "C";
         }
-        else if (this.promedio > 80 && this.promedio <= 90)
+        else if (this.promedio <= 90)
         {
             this.calificacionFinal = "B";
         }
